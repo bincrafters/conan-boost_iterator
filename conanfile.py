@@ -15,15 +15,14 @@ class BoostIteratorConan(ConanFile):
                       "Boost.Core/1.64.0@bincrafters/testing", \
                       "Boost.Detail/1.64.0@bincrafters/testing", \
                       "Boost.Function_Types/1.64.0@bincrafters/testing", \
+                      "Boost.Fusion/1.64.0@bincrafters/testing", \
                       "Boost.Mpl/1.64.0@bincrafters/testing", \
                       "Boost.Optional/1.64.0@bincrafters/testing", \
                       "Boost.Smart_Ptr/1.64.0@bincrafters/testing", \
                       "Boost.Static_Assert/1.64.0@bincrafters/testing", \
                       "Boost.Type_Traits/1.64.0@bincrafters/testing",\
                       "Boost.Utility/1.64.0@bincrafters/testing"
-                      
-                      #"Boost.Fusion/1.64.0@bincrafters/testing", \ # This is a circular dependency , Needs discussion
-                      
+    
                       #assert1 concept_check5 config0 conversion5 core2 detail5 function_types5 fusion5 mpl5 optional5 smart_ptr4 static_assert1 type_traits3 utility5
     
     def source(self):
