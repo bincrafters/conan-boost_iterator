@@ -3,9 +3,9 @@ from conans import ConanFile
 
 class BoostIteratorConan(ConanFile):
     name = "Boost.Iterator"
-    version = "1.65.1"
+    version = "1.66.0"
     requires = \
-        "Boost.Level5Group/1.65.1@bincrafters/testing"
+        "Boost.Level5Group/1.66.0@bincrafters/testing"
     lib_short_names = ["iterator"]
     is_header_only = True
     is_in_cycle_group = True
@@ -13,9 +13,9 @@ class BoostIteratorConan(ConanFile):
     # BEGIN
 
     url = "https://github.com/bincrafters/conan-boost-iterator"
-    description = "Please visit http://www.boost.org/doc/libs/1_65_1"
+    description = "Please visit http://www.boost.org/doc/libs/1_66_0"
     license = "www.boost.org/users/license.html"
-    build_requires = "Boost.Generator/1.65.1@bincrafters/testing"
+    build_requires = "Boost.Generator/1.66.0@bincrafters/testing"
     short_paths = True
     exports = "boostgenerator.py"
 
