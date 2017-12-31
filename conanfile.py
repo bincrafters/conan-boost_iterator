@@ -7,7 +7,7 @@ from conans import ConanFile, tools
 class BoostIteratorConan(ConanFile):
     name = "boost_iterator"
     version = "1.66.0"
-    url = "https://github.com/bincrafters/conan-boost-iterator"
+    url = "https://github.com/bincrafters/conan-boost_iterator"
 
     lib_short_names = ["iterator"]
     is_in_cycle_group = True
