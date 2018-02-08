@@ -11,7 +11,7 @@ class BoostIteratorConan(ConanFile):
     author = "Bincrafters <bincrafters@gmail.com>"
     exports = ["LICENSE.md"]
     lib_short_names = ["iterator"]
-    is_in_cycle_group = True
+    level_group = "boost_level5group"
     is_header_only = True
 
     def package_id_additional(self):
