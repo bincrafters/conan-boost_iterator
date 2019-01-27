@@ -8,6 +8,7 @@ base = python_requires("boost_base/1.68.0@bincrafters/testing")
 
 class BoostIteratorConan(base.BoostBaseConan):
     name = "boost_iterator"
+    version = "1.68.0"
     url = "https://github.com/bincrafters/conan-boost_iterator"
     lib_short_names = ["iterator"]
     header_only_libs = ["iterator"]
